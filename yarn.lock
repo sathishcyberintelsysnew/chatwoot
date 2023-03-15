@@ -7281,10 +7281,10 @@ domhandler@^4.0.0, domhandler@^4.2.0:
   dependencies:
     domelementtype "^2.2.0"
 
-dompurify@2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.7.tgz#a5f055a2a471638680e779bd08fc334962d11fd8"
-  integrity sha512-jdtDffdGNY+C76jvodNTu9jt5yYj59vuTUyx+wXdzcSwAGTYZDAQkQ7Iwx9zcGrA4ixC1syU4H3RZROqRxokxg==
+dompurify@2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.4.tgz#c17803931dd524e1b68e0e940a84567f9498f4bd"
+  integrity sha512-1e2SpqHiRx4DPvmRuXU5J0di3iQACwJM+mFGE2HAkkK7Tbnfk9WcghcAmyWc9CRrjyRRUpmuhPUH6LphQQR3EQ==
 
 dompurify@^2.3.4:
   version "2.3.6"
