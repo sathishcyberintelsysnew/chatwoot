@@ -4,7 +4,7 @@ ruby '3.1.3'
 
 ##-- base gems for rails --##
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '~> 6.1', '>= 6.1.7.1'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
@@ -108,7 +108,7 @@ gem 'sentry-ruby', require: false
 gem 'sentry-sidekiq', require: false
 
 ##-- background job processing --##
-gem 'sidekiq', '~> 6.4.2'
+gem 'sidekiq', '~> 7.0.0'
 # We want cron jobs
 gem 'sidekiq-cron', '~> 1.6', '>= 1.6.0'
 
@@ -206,9 +206,9 @@ end
 # worked with microsoft refresh token
 gem 'omniauth-oauth2'
 
-gem 'audited', '~> 5.2'
+gem 'audited', '~> 5.2', '>= 5.2.0'
 
 # need for google auth
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-rails_csrf_protection', '~> 1.0'
+gem 'omniauth-rails_csrf_protection', '~> 1.0', '>= 1.0.1'
