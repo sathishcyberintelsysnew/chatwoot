@@ -4,7 +4,7 @@ ruby '3.1.3'
 
 ##-- base gems for rails --##
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '~> 6.1', '>= 6.1.7.1'
+gem 'rails', '~> 6.1', '>= 6.1.7.4'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
@@ -15,7 +15,7 @@ gem 'browser'
 gem 'hashie'
 gem 'jbuilder'
 gem 'kaminari'
-gem 'responders'
+gem 'responders', '>= 3.1.0'
 gem 'rest-client'
 gem 'telephone_number'
 gem 'time_diff'
@@ -59,22 +59,22 @@ gem 'redis-namespace'
 gem 'activerecord-import'
 
 ##--- gems for server & infra configuration ---##
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.8.0'
 gem 'foreman'
 gem 'puma'
-gem 'webpacker', '~> 5.4', '>= 5.4.3'
+gem 'webpacker', '~> 5.4', '>= 5.4.4'
 # metrics on heroku
 gem 'barnes'
 
 ##--- gems for authentication & authorization ---##
-gem 'devise'
+gem 'devise', '>= 4.9.0'
 gem 'devise-secure_password', '~> 2.0', git: 'https://github.com/chatwoot/devise-secure_password'
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 1.2.1'
 # authorization
 gem 'jwt'
 gem 'pundit'
 # super admin
-gem 'administrate'
+gem 'administrate', '>= 0.18.0'
 
 ##--- gems for pubsub service ---##
 # https://karolgalanciak.com/blog/2019/11/30/from-activerecord-callbacks-to-publish-slash-subscribe-pattern-and-event-driven-design/
@@ -103,7 +103,7 @@ gem 'elastic-apm', require: false
 gem 'newrelic_rpm', require: false
 gem 'newrelic-sidekiq-metrics', require: false
 gem 'scout_apm', require: false
-gem 'sentry-rails', require: false
+gem 'sentry-rails', '>= 5.4.0', require: false
 gem 'sentry-ruby', require: false
 gem 'sentry-sidekiq', require: false
 
@@ -125,7 +125,7 @@ gem 'maxminddb'
 # to create db triggers
 gem 'hairtrigger'
 
-gem 'procore-sift'
+gem 'procore-sift', '>= 1.0.0'
 
 # parse email
 gem 'email_reply_trimmer'
@@ -191,7 +191,7 @@ group :development, :test do
   gem 'mock_redis'
   gem 'pry-rails'
   gem 'rspec_junit_formatter'
-  gem 'rspec-rails', '~> 5.0.3'
+  gem 'rspec-rails', '~> 5.1.0'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
