@@ -512,9 +512,9 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.6.1)
-    rack (2.2.6.3)
-    rack-attack (6.6.1)
-      rack (>= 1.0, < 3)
+    rack (2.2.7)
+    rack-attack (6.7.0)
+      rack (>= 1.0, < 4)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
     rack-protection (3.0.5)
@@ -835,7 +835,7 @@ DEPENDENCIES
   pry-rails
   puma
   pundit
-  rack-attack
+  rack-attack (>= 6.7.0)
   rack-cors
   rack-timeout
   rails (~> 6.1, >= 6.1.7.1)
