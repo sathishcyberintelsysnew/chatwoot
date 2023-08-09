@@ -30,7 +30,7 @@ gem 'haikunator'
 # Template parsing safely
 gem 'liquid'
 # Parse Markdown to HTML
-gem 'commonmarker'
+gem 'commonmarker', '>= 0.23.10'
 # Validate Data against JSON Schema
 gem 'json_schemer'
 # Rack middleware for blocking & throttling abusive requests
@@ -42,7 +42,7 @@ gem 'gmail_xoauth'
 # Prevent CSV injection
 gem 'csv-safe'
 # Support message translation
-gem 'google-cloud-translate'
+gem 'google-cloud-translate', '>= 3.4.0'
 
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
