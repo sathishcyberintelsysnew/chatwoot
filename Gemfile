@@ -42,7 +42,7 @@ gem 'gmail_xoauth'
 # Prevent CSV injection
 gem 'csv-safe'
 # Support message translation
-gem 'google-cloud-translate'
+gem 'google-cloud-translate', '>= 3.4.0'
 
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
