@@ -52,7 +52,7 @@
     "opus-recorder": "^8.0.5",
     "semver": "7.3.5",
     "spinkit": "~1.2.5",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^2.2.5",
     "turbolinks": "^5.2.0",
     "url-loader": "^2.0.0",
     "urlpattern-polyfill": "^6.0.2",
