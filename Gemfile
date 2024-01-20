@@ -209,6 +209,6 @@ gem 'omniauth-oauth2'
 gem 'audited', '~> 5.2'
 
 # need for google auth
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.1'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-rails_csrf_protection', '~> 1.0'
